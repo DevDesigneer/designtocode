@@ -26,7 +26,7 @@ main {
     display: flex;
     justify-content: flex-end;
     height: 5%;
-    border: 1px solid red;
+    // border: 1px solid red;
 
     li {
       list-style-type: none;
@@ -93,9 +93,10 @@ main {
 
     .hero {
       height: 80%;
-      background-color: pink;
+      // background-color: pink;
       display: flex;
       align-items: center;
+      background: pink url(https://images.unsplash.com/photo-1518253042715-a2534e1b0a7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3800&q=80) no-repeat fixed left;
 
       .hero-content {
         padding-left: 5em;
