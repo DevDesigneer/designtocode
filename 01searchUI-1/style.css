@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FAF9FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+}
+
+main {
+  background-color: #F4F6FE;
+  padding: 7em;
+}
+
+img {
+  height: 15px;
+  width: 15px;
+}
+
+.search-modal {
+  background-color: #FFFFFF;
+  padding: 2.5em;
+  border-radius: 7px;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.35s;
+}
+
+.search-modal .search-input {
+  padding: 15px;
+}
+
+.search-modal .search-input img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 10px;
+}
+
+.search-modal .search-input input {
+  border: none;
+  padding: 10px 20px 10px 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+.search-modal li {
+  list-style-type: none;
+}
+
+.search-modal .heading {
+  margin: 8px 0;
+  text-transform: uppercase;
+  color: #AFB4CB;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.search-modal .trending-shortcuts {
+  border-top: 1px solid #AFB4CB;
+  padding: 10px;
+}
+
+.search-modal .trending-shortcuts ul {
+  margin-top: 4px;
+}
+
+.search-modal .trending-shortcuts ul li:nth-child(2) {
+  background-color: #E6F6F2;
+}
+
+.search-modal .trending-shortcuts ul li:nth-child(3) {
+  background-color: #F4F3FD;
+}
+
+.search-modal .trending-shortcuts ul li {
+  margin: 0 6px 0 0;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #F9EFFA;
+  padding: 4px 10px 4px 10px;
+  color: #3C455B;
+  cursor: pointer;
+}
+
+.search-modal .trending-shortcuts ul li .text {
+  display: inline-block;
+  padding: 0 0 4px 0;
+}
+
+.search-modal .trending-shortcuts ul li img {
+  height: 1.3em;
+  width: 1.3em;
+  padding: 8px 5px 0 0;
+}
+
+.search-modal .recent-searches {
+  padding: 10px;
+}
+
+.search-modal .recent-searches li {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 3px;
+  color: #3C455B;
+  justify-content: space-between;
+  transition: all 0.35s;
+  position: relative;
+}
+
+.search-modal .recent-searches li img {
+  margin: 0 8px 0 3px;
+}
+
+.search-modal .recent-searches li .cross {
+  opacity: 0;
+  display: inline-block;
+  position: absolute;
+  right: 4px;
+  transition: opacity 0.35s;
+}
+
+.search-modal .recent-searches li .cross img {
+  height: 20px;
+  width: 20px;
+}
+
+.search-modal .recent-searches li:hover {
+  background-color: #EBEAF3;
+}
+
+.search-modal .recent-searches li:hover .cross {
+  opacity: 1;
+}

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F1FC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  width: 90vw;
+  height: 90vh;
+  background-color: #FFF;
+  border-radius: 7px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+main nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 5%;
+  border: 1px solid red;
+}
+main nav li {
+  list-style-type: none;
+  display: inline-flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+main nav li a {
+  padding: 0 1.5em;
+  text-decoration: none;
+  color: #000;
+  height: 50%;
+}
+main nav .sign-link {
+  background-color: #000;
+  position: relative;
+  border-radius: 0 7px 0 0;
+}
+main nav .sign-link a {
+  vertical-align: middle;
+  color: #fff;
+}
+main nav .sign-link .sign-register {
+  position: absolute;
+  display: none;
+  width: 30em;
+  height: 15em;
+  top: 47px;
+  left: -380px;
+  background-color: #fff;
+  border: 2px solid black;
+  padding: 25px 45px 25px 45px;
+}
+main nav .sign-link .sign-register a {
+  color: black;
+}
+main nav .sign-link .sign-register .sign-in {
+  height: 100%;
+}
+main nav .sign-link .sign-register .register {
+  height: 100%;
+}
+main nav .sign-link :hover + .sign-register {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .main-content {
+  height: 95%;
+}
+main .main-content .hero {
+  height: 80%;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+}
+main .main-content .hero .hero-content {
+  padding-left: 5em;
+}
+main .main-content .hero .hero-content h3 {
+  font-size: 2rem;
+  padding: 0 0 0.4em 0;
+}
+main .main-content .hero .hero-content p {
+  font-size: 1.2rem;
+  padding: 0 0 0.4em 0;
+}
+main .main-content .hero .hero-content .search-box {
+  display: flex;
+}
+main .main-content .hero .hero-content .search-box input {
+  border: none;
+  height: 2em;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  padding: 20px 35px 20px 35px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+main .main-content .hero .hero-content .search-box a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0 5px 5px 0;
+  padding: 0 1.5em;
+  font-size: 0.7rem;
+}
+main .main-content .tld-cards {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-content .tld-cards .card-outer {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.35s;
+}
+main .main-content .tld-cards .card-outer .card {
+  padding: 50px 25px 25px 25px;
+  position: relative;
+  height: 100%;
+  z-index: 1;
+}
+main .main-content .tld-cards .card-outer .card .card-head {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+main .main-content .tld-cards .card-outer .card .featured {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #F3F0F7;
+  padding: 2px;
+  font-size: 0.75rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+main .main-content .tld-cards .card-outer .card .featured p {
+  padding: 3px 15px 3px 25px;
+}
+main .main-content .tld-cards .card-outer:hover {
+  transform: scale(1.1);
+  transition: all 0.35s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 25;
+}

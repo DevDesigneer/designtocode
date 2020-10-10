@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F7F9FC;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+.recording-list {
+  width: 75%;
+
+  .list-item {
+    background-color: #fff;
+    width: 100%;
+    height: 6em;
+    border-radius: 7px;
+    margin: 8px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all .35s ease-in-out;
+
+    .play-icon {
+      margin: 0 1.1em 0 1.5em;
+      background-color: #F7F9FC;
+      border: 1px solid #AAAFCB;
+      border-radius: 50%;
+      height: 3em;
+      width: 3.25em;
+      display: inline-block;
+      text-align: center;
+      cursor: pointer;
+
+      img {
+        margin-top: 1em;
+        margin-left: 3px;
+      }
+    }
+
+    .date {
+      font-weight: 600;
+    }
+
+    .information {
+      width: 100%;
+
+      .sub-info {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 1.5em;
+
+        small {
+          font-size: 0.8rem;
+
+          // This is what I had to do to
+          // make these inline images align properly
+          img {
+            display: inline-block;
+            vertical-align: middle;
+            height: 17px;
+            width: auto; // Only because Opera logo was not happy
+            padding-bottom: 2px;
+          }
+        }
+
+        .right {
+          transition: all .35s ease-in-out;
+          color: #646464;
+        }
+      }
+    }
+  }
+
+  .list-item:hover {
+    background-color: #4C5FFF;
+    color: #fff;
+    transition: all .35s ease-in-out;
+
+    .information {
+      .sub-info {
+        .right {
+          transition: all .35s ease-in-out;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

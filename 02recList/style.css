@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #F7F9FC;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main img {
+  height: 15px;
+  width: 15px;
+}
+
+.recording-list {
+  width: 75%;
+}
+.recording-list .list-item {
+  background-color: #fff;
+  width: 100%;
+  height: 6em;
+  border-radius: 7px;
+  margin: 8px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.35s ease-in-out;
+}
+.recording-list .list-item .play-icon {
+  margin: 0 1.1em 0 1.5em;
+  background-color: #F7F9FC;
+  border: 1px solid #AAAFCB;
+  border-radius: 50%;
+  height: 3em;
+  width: 3.25em;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+.recording-list .list-item .play-icon img {
+  margin-top: 1em;
+  margin-left: 3px;
+}
+.recording-list .list-item .date {
+  font-weight: 600;
+}
+.recording-list .list-item .information {
+  width: 100%;
+}
+.recording-list .list-item .information .sub-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 1.5em;
+}
+.recording-list .list-item .information .sub-info small {
+  font-size: 0.8rem;
+}
+.recording-list .list-item .information .sub-info small img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 17px;
+  width: auto;
+  padding-bottom: 2px;
+}
+.recording-list .list-item .information .sub-info .right {
+  transition: all 0.35s ease-in-out;
+  color: #646464;
+}
+.recording-list .list-item:hover {
+  background-color: #4C5FFF;
+  color: #fff;
+  transition: all 0.35s ease-in-out;
+}
+.recording-list .list-item:hover .information .sub-info .right {
+  transition: all 0.35s ease-in-out;
+  color: #fff;
+}
