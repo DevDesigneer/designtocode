@@ -1,5 +1,5 @@
 <div align='center'>
-  <img src='https://github.com/DevDesigneer/designtocode/blob/main/site/banner.png' width='200'/>
+  <img src='https://github.com/DevDesigneer/designtocode/blob/main/site/banner.png' width='500'/>
   <h1>✨DesignToCode✨</h1>
   <em> 🦋 Awesome UI component designs using pure HTML+CSS </em>
 </div>
