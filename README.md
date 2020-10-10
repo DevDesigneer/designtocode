@@ -1,4 +1,5 @@
 <div align='center'>
+  <img src='https://github.com/DevDesigneer/designtocode/tree/main/site/banner.png' height='450'/>
   <h1>✨DesignToCode✨</h1>
   <em> 🦋 Awesome UI component designs using pure HTML+CSS </em>
 </div>
