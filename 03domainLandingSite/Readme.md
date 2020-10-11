@@ -7,4 +7,4 @@
 Designed by `<DesignerName>`<br/>
 Developed by `<DeveloperName>`
 
-<!-- ScreenShots/More content description goes here -->
+<!-- ScreenShots/More content description goes here ->
