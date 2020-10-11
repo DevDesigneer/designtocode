@@ -4,7 +4,7 @@
   <em> Demo Design </em>
 </div>
 
-Designed by <a href="https://dribbble.com/shots/14033752-Domain-Site-Landing-Page">Ildiko Gaspar</a>
+Designed by <a href="https://dribbble.com/shots/14033752-Domain-Site-Landing-Page">Ildiko Gaspar</a><br />
 Developed by <a href="https://github.com/ABSphreak">ABSphreak</a>
 
 <!-- ScreenShots/More content description goes here -->
